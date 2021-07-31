@@ -1,0 +1,52 @@
+.auth__main{
+    align-items: center;
+    background-color:cornflowerblue;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    height: 100vh ;
+    width:  100vw ;
+}
+
+.auth_box_container{
+    background-color: white;
+    box-shadow: 0px 3px black;
+    border-radius: 2px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+}
+
+.form-login{
+    margin: 5px;
+}
+
+.btn-danger{
+    background-color: red;
+    &:hover{
+        background-color: saddlebrown;
+    }
+}
+
+.input-login{
+    margin: 5px;
+    width: 90%;
+    border: 0px;
+    border-bottom: 1px solid black;
+    height: 20px;
+
+}
+.button-login{
+    background-color: dodgerblue;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    font-size: 12px;
+    margin-top: 10px;
+    width: 90%;
+    box-shadow: black;
+}
+.img-login{
+    width: 90%
+   
+}

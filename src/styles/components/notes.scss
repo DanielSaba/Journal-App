@@ -1,0 +1,43 @@
+.notes__main-content{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.notes__appbar{
+    align-items: center;
+    color: white;
+    background-color: mediumslateblue;
+    justify-content: space-between;
+    display: flex;
+    padding: 10px 20px 10px 20px;
+    
+}
+.notes__content{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 20px;
+}
+
+.notes__title-input, .notes__textArea{
+    border: none;
+    &:focus{
+        outline: none;
+    }
+}
+
+.notes__title-input{
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.notes__textArea{
+    border: none;
+    font-size: 20px;
+    flex: 1 1 auto;
+    resize: none;
+}
+.notes__image img{
+    height: 150px;
+}

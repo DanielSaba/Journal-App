@@ -1,0 +1,19 @@
+@import './base/settings';
+@import './base/base';
+
+//components
+
+@import './components/auth.scss';
+
+
+//JournalComponent
+
+@import './components/journal.scss';
+
+//Nothing
+
+@import './components/nothing.scss';
+
+//notes
+
+@import './components/notes.scss';
