@@ -1,1 +1,1 @@
-journal-app-reactjs.herokuapp.com
+https://journal-app-reactjs.herokuapp.com
